@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1, h2{
+  text-align: center;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding-top: 3%; 
+}
+li{
+  border: 2px solid black;
+}
+
+#honda{
+  display: flex;
+  justify-content: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+#BMW{
+  background:url('https://cdn-fastly.motorcycle.com/media/2023/05/31/11670121/2018-bmw-hp4-race-priced-at-78-000-us.jpg?size=720x845&nocrop=1');
+  height: 450px;
+  width: 600px;
+  background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center; /* Center the image within the container */
+    background-repeat: no-repeat;
+}
+
+#ducati{
+    background: url('https://i.ebayimg.com/images/g/K5YAAOSwllNi1RIz/s-l1600.jpg');
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center; /* Center the image within the container */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height:450px;
+    width: 600px;
+  }
+
+<<<<<<< HEAD
+  #honda{
+=======
+#honda{
+>>>>>>> ca0cc19ffe75d2eedeb47303ca13ecb6ecca6497
+    background: url('https://www.asphaltandrubber.com/wp-content/uploads/2020/09/2021-Honda-CBR1000RR-R-Fireblade-SP-press-launch-45-scaled.jpg');
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center; /* Center the image within the container */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height:450px;
+    width: 600px;
+<<<<<<< HEAD
+  }
+=======
+  }
+>>>>>>> ca0cc19ffe75d2eedeb47303ca13ecb6ecca6497
